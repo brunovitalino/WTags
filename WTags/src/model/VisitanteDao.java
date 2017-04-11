@@ -1,5 +1,6 @@
 package model;
 
-public class VisitanteDao {
+public class VisitanteDao
+{
 
 }
