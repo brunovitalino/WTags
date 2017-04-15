@@ -3,7 +3,8 @@ package model;
 public class Visitante
 {
 	int id;
-	String nome, telefone;
+	String nome = "Johnny";
+	String telefone = "12348765";
 	
 	public int getId() {
 		return id;
@@ -23,9 +24,4 @@ public class Visitante
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
 	}
-	
-	public Visitante() {
-		
-	}
-
 }
