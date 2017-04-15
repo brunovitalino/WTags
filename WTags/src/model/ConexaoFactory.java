@@ -11,11 +11,11 @@ public class ConexaoFactory
 	{
 		Connection conexao = null;
 		
-		/*try {
-			Class.forName("com.sql.jdbc.Driver");*/
+		try {
+			Class.forName("com.mysql.jdbc.Driver");
 			try
 			{
-				conexao = DriverManager.getConnection("jdbc:mysql:localhost/wtags", "root", "");
+				conexao = DriverManager.getConnection("jdbc:mysql://localhost/wtags", "root", "");
 			}
 			catch (SQLException e)
 			{
@@ -23,11 +23,11 @@ public class ConexaoFactory
 				System.out.println("ERRO2. Nao foi possivel se conectar.");
 				throw new RuntimeException(e);
 			}
-		/*} catch (ClassNotFoundException e1) {
+		} catch (ClassNotFoundException e1) {
 			// TODO Auto-generated catch block
 			System.out.println("ERRO1. Conector nao localizado");
 			e1.printStackTrace();
-		}*/
+		}
 		
 		return conexao;
 	}

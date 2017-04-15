@@ -3,6 +3,7 @@ package negocio;
 import model.Visitante;
 import model.VisitanteDao;
 
+// Classe de teste jdbc
 public class Main {
 
 	public static void main(String[] args) {

@@ -10,8 +10,8 @@ CREATE TABLE Visitante
 );
 
 INSERT INTO Visitante(nome, telefone) VALUES ('Bruno Vitalino', '99998888');
-INSERT INTO Visitante(nome, telefone) VALUES ('Sandra Regina', '99998877');
-INSERT INTO Visitante(nome, telefone) VALUES ('Breno Oliveira', '99998866');
+INSERT INTO Visitante(nome, telefone) VALUES ('Sandra Regina', '99997777');
+INSERT INTO Visitante(nome, telefone) VALUES ('Breno Oliveira', '99996666');
 
 SELECT * FROM Visitante;
 
