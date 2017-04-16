@@ -30,6 +30,8 @@ public class VisitanteDao
 				Visitante visitante = new Visitante();
 				visitante.setNome(rs.getString("nome"));
 				visitante.setTelefone(rs.getString("telefone"));
+				visitante.setEmail(rs.getString("email"));
+				visitante.setMensagem(rs.getString("mensagem"));
 				visitantes.add(visitante);
 			}
 		}

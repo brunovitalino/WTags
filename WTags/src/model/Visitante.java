@@ -5,6 +5,8 @@ public class Visitante
 	int id;
 	String nome = "Johnny";
 	String telefone = "12348765";
+	String email;
+	String mensagem;
 	
 	public int getId() {
 		return id;
@@ -23,5 +25,17 @@ public class Visitante
 	}
 	public void setTelefone(String telefone) {
 		this.telefone = telefone;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getMensagem() {
+		return mensagem;
+	}
+	public void setMensagem(String mensagem) {
+		this.mensagem = mensagem;
 	}
 }
