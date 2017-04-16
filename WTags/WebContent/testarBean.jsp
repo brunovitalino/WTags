@@ -6,7 +6,7 @@
 <body>
 	<jsp:useBean id="visitante" class="model.Visitante"></jsp:useBean>
 	
-	<form action="alteracaoEncaminhada.jsp">	
+	<form action="alteracaoEncaminhada.jsp" method="post">	
 		<div>
 			<b>Nome (definido na classe) exibido com jsp:getProperty (tag ultrapassada subst. por EL):</b>
 			<jsp:getProperty name="visitante" property="nome" />
@@ -35,7 +35,8 @@
 		</div>
 		
 		<div>
-			<label for="telefone">Telefone: </label> <input type="text" name="telefone">
+			<label for="telefoneVisitante">Telefone: </label>
+			<input type="text" id="telefoneVisitante" name="telefone">
 		</div>	
 		<input type="submit" value="Alterar"/>
     </form>

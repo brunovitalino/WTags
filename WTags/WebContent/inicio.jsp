@@ -8,5 +8,6 @@
 	<h3><a href="testarBean.jsp">Testar Bean</a></h3>
 	<h3><a href="listarVisitantes.jsp">Listar visitantes usando Taglibs</a></h3>
 	<h3><a href="paginaCabecalhoRodape.jsp">Importando cabeçalhos e rodapés</a></h3>
+	<h3><a href="adicionarVisitantes.jsp">Adicionar novos visitantes usando Tagfiles</a></h3>
 </body>
 </html>

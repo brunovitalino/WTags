@@ -2,6 +2,6 @@
 <div align="center">
 	<c:url value="/imagens/IFCE_homeHeaderTitleImage_pt_BR.jpg" var="imagem" />
 	<img src="${imagem}">
-	<h2>Cabeçalho Brunoo</h2>
+	<h2>Cabeçalho Bruno</h2>
 </div>
 <hr />
